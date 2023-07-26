@@ -1,0 +1,5 @@
+displayName = Guidebook Toggle Buttons
+author = pat man
+version = 1.0
+includeSource = true
+side = Client
