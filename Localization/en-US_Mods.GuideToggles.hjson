@@ -5,6 +5,8 @@ Buttons: {
 	EnvironmentOff: "{$ItemName.DontHurtNatureBook}: Inactive"
 	PeaceOn: "{$ItemName.DontHurtComboBook}: Active"
 	PeaceOff: "{$ItemName.DontHurtComboBook}: Inactive"
+	StoneOn: "{$ItemName.EncumberingStone}: Locked"
+	StoneOff: "{$ItemName.UncumberingStone}: Unlocked"
 }
 
 Keybinds: {
@@ -35,7 +37,16 @@ Configs: {
 
 		EnableKeybinds: {
 			Label: Enable Keybinds [c/888888:(requires reload)]
-			Tooltip: ""
+			Tooltip: All buttons will also have keybinds
+		}
+
+		EncumberingStone: {
+			Label: Encumbering Stone [c/888888:(requires reload)]
+			Tooltip:
+				'''
+				The encumbering stone will now work inside the Void Vault
+				Adds another button to toggle the encumbering stone
+				'''
 		}
 
 		ButtonMode: {

@@ -59,6 +59,21 @@ public class GuideToggles : Mod
                 ItemID.DontHurtComboBook
             ),
         };
+
+        if (Config.Instance.EncumberingStone)
+        {
+            Buttons.Add(new Button(
+                "Encumbering",
+                Language.GetOrRegister("Mods.GuideToggles.Buttons.StoneOff"),
+                Language.GetOrRegister("Mods.GuideToggles.Buttons.StoneOn"),
+                ModContent.Request<Texture2D>("GuideToggles/Images/Stone1"),
+                ModContent.Request<Texture2D>("GuideToggles/Images/Stone0"),
+                ModContent.Request<Texture2D>("GuideToggles/Images/StoneBorder1"),
+                ModContent.Request<Texture2D>("GuideToggles/Images/StoneBorder0"),
+                ItemID.UncumberingStone,
+                ItemID.EncumberingStone
+            ));
+        }
     }
 
     public override void Unload()

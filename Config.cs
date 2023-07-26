@@ -19,6 +19,10 @@ internal class Config : ModConfig
     [DefaultValue(false)]
     public bool EnableKeybinds;
 
+    [ReloadRequired]
+    [DefaultValue(true)]
+    public bool EncumberingStone;
+
     [DrawTicks]
     [DefaultValue(ButtonModes.InventoryOnly)]
     [JsonConverter(typeof(StringEnumConverter))]
