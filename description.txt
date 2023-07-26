@@ -1,7 +1,8 @@
 adds buttons to the side of the screen to toggle the Guides to Critter Companionship, Environmental Preservation, and Peaceful Coexistence
+and also the Encumbering Stone!! which now works from inside the void bag (it doesnt in vanilla for some reason)
+
 theyre right under the silly builder accessory buttons by default. but you can move them
 
 you can also enable keybinds for all of them if you really want to. idk why you would
-
 
 made bc opening my void bag and dragging them into my inventory to toggle them is annoying

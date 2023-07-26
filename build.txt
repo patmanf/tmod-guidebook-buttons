@@ -1,5 +1,5 @@
 displayName = Guidebook Toggle Buttons
 author = pat man
-version = 1.1
+version = 1.1.0.1
 includeSource = true
 side = Client
